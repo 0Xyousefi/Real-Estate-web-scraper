@@ -8,7 +8,7 @@ if __name__ == "__main__":
     try:
 
         url_to_scrape = f'https://www.centris.ca/en/plexes~for-sale~montreal-ouest?view=Thumbnail&uc=6'
-        webdriver_path = '/Users/myouesfi/Downloads/CentrisScraper-master/chromedriver'
+        webdriver_path = ''
         chrome_options = Options()
         chrome_options.add_argument('--headless')
         driver = webdriver.Chrome(webdriver_path)
