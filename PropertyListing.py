@@ -20,7 +20,7 @@ class PropertyListing:
         self.description = None
 
     def get_data(self):
-        webdriver_path = '/Users/myouesfi/Downloads/CentrisScraper-master/chromedriver'
+        webdriver_path = ''
         chrome_options = Options()
         chrome_options.add_argument('--headless')
         driver = webdriver.Chrome(webdriver_path)
