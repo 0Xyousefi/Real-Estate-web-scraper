@@ -1,2 +1,2 @@
 # Real Estate web scraper
-This is a very simple web scraper for scraping listing's Data from centris. I used it to analyse investment oportonity in Montreal. you can find my analsis Here. 
+This is a simple web scraper for scraping listing data from Centris (real estate website in Quebec). I used it to create dataset to analyze investment opportunities in Montreal. you can find my analysis on Kaggle. 
