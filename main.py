@@ -35,7 +35,7 @@ if __name__ == "__main__":
         df = pd.DataFrame()
         for property in property_list:
             df = pd.concat([df, property.to_dataframe()])
-        df.to_csv('/Users/myouesfi/Desktop/Finalresult2.csv')
+        df.to_csv('result.csv')
 
     finally:
         driver.close()
